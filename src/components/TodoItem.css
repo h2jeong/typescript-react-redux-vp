@@ -1,0 +1,10 @@
+.TodoItem .text,
+.TodoItem .remove {
+  cursor: pointer;
+}
+.TodoItem.done .text {
+  text-decoration: line-through;
+}
+.TodoItem .remove {
+  color: red;
+}
